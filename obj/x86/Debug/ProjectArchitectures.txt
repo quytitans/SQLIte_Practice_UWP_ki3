@@ -1,1 +1,1 @@
-D:\06. Universal App\ControlMoneyApp\ControlMoneyApp.csproj;x86
+F:\01. Universal App\SQLIte_Practice_UWP_ki3\ControlMoneyApp.csproj;x86

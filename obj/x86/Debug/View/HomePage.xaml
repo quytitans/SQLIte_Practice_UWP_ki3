@@ -12,9 +12,7 @@
                             IsSettingsVisible="False">        
         <NavigationView.MenuItems >
             <NavigationViewItem x:ConnectionId='3' Icon="Add" Content="Add New Expenses" Tag="addNew"                     />
-            <NavigationViewItem x:ConnectionId='4' Icon="Library" Content="Show Expenses" Tag="showInfomation"                      />
-            <NavigationViewItem Icon="Refresh" Content="Menu Item3" Tag="SamplePage3" />
-            <NavigationViewItem Icon="Download" Content="Menu Item4" Tag="SamplePage4" />
+            <NavigationViewItem x:ConnectionId='4' Icon="Library" Content="Show Expenses" Tag="showInfomation"                      />            
         </NavigationView.MenuItems>
         <Frame x:ConnectionId='5' x:Name="contentFrame"/>
     </NavigationView>

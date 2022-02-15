@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-I78CPBJ</Machine>
+    <Machine>DESKTOP-CNFFO47</Machine>
     <WindowsUser>quana</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>774e4c05-d259-4b2b-b0b3-8dd08b3c0ebf</PackageIdentityName>
     <PackageIdentityPublisher>CN=quana</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\06. Universal App\ControlMoneyApp\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>F:\01. Universal App\SQLIte_Practice_UWP_ki3\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\06. Universal App\ControlMoneyApp\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>F:\01. Universal App\SQLIte_Practice_UWP_ki3\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\06. Universal App\ControlMoneyApp\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\bin\x86\Debug\ControlMoneyApp.exe">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\bin\x86\Debug\ControlMoneyApp.exe">
       <PackagePath>entrypoint\ControlMoneyApp.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\quana\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\7.1.2\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
@@ -49,55 +49,55 @@
     <AppxPackagedFile Include="C:\Users\quana\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\7.1.2\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\bin\x86\Debug\ControlMoneyApp.xr.xml">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\bin\x86\Debug\ControlMoneyApp.xr.xml">
       <PackagePath>ControlMoneyApp.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\bin\x86\Debug\View\AddNewMoneyPage.xbf">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\bin\x86\Debug\View\AddNewMoneyPage.xbf">
       <PackagePath>View\AddNewMoneyPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\bin\x86\Debug\View\HomePage.xbf">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\bin\x86\Debug\View\HomePage.xbf">
       <PackagePath>View\HomePage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\bin\x86\Debug\View\ViewAllDataPage.xbf">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\bin\x86\Debug\View\ViewAllDataPage.xbf">
       <PackagePath>View\ViewAllDataPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\bin\x86\Debug\View\WellcomePage.xbf">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\bin\x86\Debug\View\WellcomePage.xbf">
       <PackagePath>View\WellcomePage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
@@ -106,10 +106,10 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\06. Universal App\ControlMoneyApp\bin\x86\Debug\Core\ControlMoneyApp.exe">
+    <AppxPackagedFile Include="F:\01. Universal App\SQLIte_Practice_UWP_ki3\bin\x86\Debug\Core\ControlMoneyApp.exe">
       <PackagePath>ControlMoneyApp.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\quana\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">

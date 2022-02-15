@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6SO9OJMt3CiuV4jhnvqh7SJg3vPifpjJDCq64Izgnv3Nu7yE2lJGkbjGUTCaitzQLdSGN9OCqYcN34Rs1bwTjg==",
+  "dgSpecHash": "RkV7Bu+pc7oIIJ+Y42f2+8Etj8pFmcEK92z6SGIZlR2G+zB2/IrCQ2WqgwFkCEELRya2+i0itf6grWtOu2yr2w==",
   "success": true,
-  "projectFilePath": "D:\\06. Universal App\\ControlMoneyApp\\ControlMoneyApp.csproj",
+  "projectFilePath": "F:\\01. Universal App\\SQLIte_Practice_UWP_ki3\\ControlMoneyApp.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",

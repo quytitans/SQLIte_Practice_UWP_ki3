@@ -60,5 +60,50 @@ namespace ControlMoneyApp.Data
             }            
             return listAll;
         }
+        public static List<MyTransaction> SelectByFilter(string categoryPick, string fromDate, string toDate)
+        {
+            string querryString = "select * from SaveMoney";
+            var conn = new SQLiteConnection("SaveMoney.db");
+            var listAll = new List<MyTransaction>();
+            //select condition base on input parameter
+            if(categoryPick != "" && fromDate == "" && toDate == "")
+            {
+                querryString = $"select * from SaveMoney where category = '{categoryPick}'";
+            }else if(categoryPick != "" && fromDate != "" && toDate != "")
+            {
+                querryString = $"select * from SaveMoney where category = '{categoryPick}' and datepay >= '{fromDate}' and datepay <= '{toDate}'";
+            }
+            else if(categoryPick == "" && fromDate != "" && toDate == "")
+            {
+                querryString = $"select * from SaveMoney where datepay >= '{fromDate}'";
+            }
+            else if(categoryPick == "" && fromDate == "" && toDate != "")
+            {
+                querryString = $"select * from SaveMoney where datepay <= '{toDate}'";
+            }
+            else if (categoryPick == "" && fromDate != "" && toDate != "")
+            {
+                querryString = $"select * from SaveMoney where datepay >= '{fromDate}' and datepay <= '{toDate}'";
+            }
+            else
+            {
+                querryString = "select * from SaveMoney";
+            }
+            
+            using (var stt = conn.Prepare(querryString))
+            {
+                while (stt.Step() == SQLiteResult.ROW)
+                {
+                    var newTransaction = new MyTransaction();
+                    newTransaction.name = stt["name"] as string;
+                    newTransaction.money = (double)stt["money"];
+                    newTransaction.datepay = Convert.ToDateTime(stt["datepay"]);
+                    newTransaction.category = stt["category"] as string;
+                    Debug.WriteLine(newTransaction.name);
+                    listAll.Add(newTransaction);
+                }
+            }
+            return listAll;
+        }
     }
 }

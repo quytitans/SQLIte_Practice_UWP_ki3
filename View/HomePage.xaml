@@ -12,9 +12,7 @@
                             IsSettingsVisible="False">        
         <NavigationView.MenuItems >
             <NavigationViewItem Icon="Add" Content="Add New Expenses" Tag="addNew" Tapped="AddNewCLick"/>
-            <NavigationViewItem Icon="Library" Content="Show Expenses" Tag="showInfomation" Tapped="ShowAllClick"/>
-            <NavigationViewItem Icon="Refresh" Content="Menu Item3" Tag="SamplePage3" />
-            <NavigationViewItem Icon="Download" Content="Menu Item4" Tag="SamplePage4" />
+            <NavigationViewItem Icon="Library" Content="Show Expenses" Tag="showInfomation" Tapped="ShowAllClick"/>            
         </NavigationView.MenuItems>
         <Frame x:Name="contentFrame"/>
     </NavigationView>

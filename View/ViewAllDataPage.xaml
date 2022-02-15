@@ -7,13 +7,27 @@
     xmlns:Custom="using:Microsoft.Toolkit.Uwp.UI.Controls"
     x:Class="ControlMoneyApp.View.ViewAllDataPage"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="1120">
 
-    <ScrollViewer Margin="0,0,10,0">
-        <Grid>
-            <Custom:DataGrid HorizontalAlignment="Left" Height="707" VerticalAlignment="Top" Width="716" AutoGenerateColumns="True" ItemsSource="{x:Bind listViewAll}" Margin="72,145,0,0"/>
-            <TextBlock HorizontalAlignment="Left" Margin="77,102,0,0" Text="Total money paid: " TextWrapping="Wrap" VerticalAlignment="Top"/>
-            <TextBlock HorizontalAlignment="Left" Margin="237,102,0,0" FontStyle="Italic" Text="unavailable" x:Name="totalMoneyView" TextWrapping="Wrap" VerticalAlignment="Top"/>
+    <ScrollViewer>
+        <Grid Width="1108" Height="960">
+            <Custom:DataGrid x:Name="inputGridDataView" HorizontalAlignment="Left" Height="558" VerticalAlignment="Top" Width="1098" AutoGenerateColumns="True" Margin="10,214,0,0"/>
+            <DropDownButton Content="Danh mục" Margin="452,80,0,0" VerticalAlignment="Top">
+                <DropDownButton.Flyout>
+                    <MenuFlyout Placement="Bottom">
+                        <MenuFlyoutItem Tag="1" Text="Sinh hoạt phí" Click="CategoryClick"/>
+                        <MenuFlyoutItem Tag="2" Text="Tiêu vặt" Click="CategoryClick"/>
+                        <MenuFlyoutItem Tag="3" Text="Tặng biếu" Click="CategoryClick"/>
+                    </MenuFlyout>
+                </DropDownButton.Flyout>
+            </DropDownButton>
+            <TextBlock HorizontalAlignment="Left" Margin="10,164,0,0" Text="Total money paid: " TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Left" Margin="136,164,0,0" FontStyle="Italic" Text="unavailable" x:Name="totalMoneyView" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <Button Content="Search" Margin="10,80,0,0" VerticalAlignment="Top" Width="98" Click="ButtonSearch_Click"/>
+            <CalendarDatePicker x:Name="inputFromDate" Header="From: " Margin="136,57,0,0" VerticalAlignment="Top" DateFormat="{}{day.integer}-{month.integer}-{year.full}" DateChanged ="FromDate_DateChanged"/>
+            <CalendarDatePicker x:Name="inputToDate" Header="To: " Margin="292,57,0,0" VerticalAlignment="Top" DateFormat="{}{day.integer}-{month.integer}-{year.full}" DateChanged="ToDate_DateChanged"/>
+            <Button Content="Reset" Margin="693,80,0,0" VerticalAlignment="Top" Width="98" Click="ButtonReset_Click"/>
+            <TextBlock x:Name="previewCategory" HorizontalAlignment="Left" Margin="559,87,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="135"/>
         </Grid>
     </ScrollViewer>
 </Page>
